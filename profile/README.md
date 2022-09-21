@@ -20,14 +20,10 @@ By logging in with your Spotify account, you will be able to find people who lis
 - Installa MySQL server e MySQL connection (per **python** ovviamente)
 - Metti la password del root (non la mettiamo qua che magari è poco sicuro) :)
 
-# Per il venv
-
-buona fortuna
-
 # Setup
 
 > Per il frontend
-### (nella directory del frontend
+### (nella directory del frontend)
 ```
 npm install
 
