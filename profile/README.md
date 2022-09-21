@@ -26,18 +26,11 @@ buona fortuna
 
 # Setup
 
-> Per il backend
-
-```
-pip install -r requirements.txt
-```
-
-#
-
 > Per il frontend
-
+### (nella directory del frontend
 ```
 npm install
+
 ```
 
 # Development ToDos
