@@ -47,6 +47,7 @@ npm install
 - [ ] Possibilità di personalizzare il profilo
 - [ ] Trovare altre cose da aggiungere alla lista
 - [x] Avere la certezza matematica che non finiremo mai in tempo
+- [x] Avere 5 mesi di tempo per fare il progetto ma usare solo gli ultimi 15 giorni
 
 ## frontend
 - [ ] Form per login con sesso, a quale sesso è interessato(anche più di uno)
