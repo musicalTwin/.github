@@ -54,3 +54,6 @@ npm install
 - [ ] Login Spotify (https://www.npmjs.com/package/react-spotify-auth) senza lasciare le credenziali in chiaro
 - [ ] Cards (cardId, id dell'utente da swipare)
 - [ ] Codice pulito :)
+
+# Anteprima UI
+![Foto](https://github.com/musicalTwin/client/blob/master/giovanni.png?raw=true)
