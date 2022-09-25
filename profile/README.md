@@ -10,6 +10,8 @@ By logging in with your Spotify account, you will be able to find people who lis
 
 :stars:
 
+# Anteprima UI
+![Foto](https://github.com/musicalTwin/client/blob/master/giovanni.png?raw=true)
 
 
 
@@ -55,5 +57,4 @@ npm install
 - [ ] Cards (cardId, id dell'utente da swipare)
 - [ ] Codice pulito :)
 
-# Anteprima UI
-![Foto](https://github.com/musicalTwin/client/blob/master/giovanni.png?raw=true)
+
