@@ -11,6 +11,9 @@ By logging in with your Spotify account, you will be able to find people who lis
 :stars:
 
 # Anteprima UI
+![Foto](https://github.com/musicalTwin/client/blob/master/STILEDEFINITIVO.png?raw=true)
+
+# Average MusicalTwin user:
 ![Foto](https://github.com/musicalTwin/client/blob/master/giovanni.png?raw=true)
 
 
