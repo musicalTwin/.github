@@ -1,6 +1,6 @@
 # Welcome in MusicalTwin! :star:
 ## What does this application do?
-By logging in with your Spotify account, you will be able to find people who listen to your same music (less or more)!
+By logging in with your Spotify account, you will be able to find people with the same musical taste as yours(kinda)!
 
 ## Technology used
 - React
@@ -31,7 +31,9 @@ By logging in with your Spotify account, you will be able to find people who lis
 ### (nella directory del frontend)
 ```
 npm install
-
+npm start
+localhost:3000
+havefun
 ```
 
 # Development ToDos
@@ -55,7 +57,9 @@ npm install
 - [x] Avere 5 mesi di tempo per fare il progetto ma usare solo gli ultimi 15 giorni
 
 ## frontend
-- [ ] Form per login con sesso, a quale sesso è interessato(anche più di uno)
+- [x] Form registrazione
+- [ ] Homepage
+- [x] Form per login con sesso, a quale sesso è interessato(anche più di uno)
 - [x] Login Spotify (https://www.npmjs.com/package/react-spotify-auth) (senza lasciare le credenziali in chiaro TODO)
 - [ ] Cards (cardId, id dell'utente da swipare)
 - [ ] Codice pulito :)
