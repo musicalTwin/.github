@@ -24,7 +24,7 @@ By logging in with your Spotify account, you will be able to find people with th
 
 - Installa MySQL server e MySQL connection (per **python** ovviamente)
 - Metti la password del root (non la mettiamo qua che magari è poco sicuro) :)
-
+###[Local generated Api Docs](http://localhost:5000/swagger-ui/index.html)
 # Setup
 
 > Per il frontend
@@ -32,9 +32,8 @@ By logging in with your Spotify account, you will be able to find people with th
 ```
 npm install
 npm start
-localhost:3000
-havefun
 ```
+#### start port: [http://localhost:3000/](http://localhost:3000/) 
 
 # Development ToDos
 
