@@ -34,7 +34,8 @@ Install [node](https://nodejs.org/en/), then into `client` directory
 npm install
 npm start
 ```
-#### start port: [http://localhost:3000/](http://localhost:3000/)
+
+start port: [http://localhost:3000/](http://localhost:3000/)
 
 <br />
 
@@ -53,4 +54,4 @@ To run (in `server`)
 .\mvnw.cmd spring-boot:run
 ```
 
-#### start port: [http://localhost:5000/](http://localhost:5000/) (if you want to change it: `server/src/main/resources/application.properties`)
+start port: [http://localhost:5000/](http://localhost:5000/) (if you want to change it: `server/src/main/resources/application.properties`)
