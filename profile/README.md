@@ -1,6 +1,6 @@
 # Welcome in MusicalTwin! :star:
 ## What does this application do?
-By logging in with your Spotify account, you will be able to find people with the same musical taste as yours(kinda)!
+By logging in with your Spotify account, you will be able to find people with the same musical taste as yours (kinda)!
 
 ## Technology used
 - React
@@ -20,21 +20,32 @@ By logging in with your Spotify account, you will be able to find people with th
 
 # Development setup
 
-## [Installer MySQL](https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.29.0.msi)
-
-- Installa MySQL server e MySQL connection (per **python** ovviamente)
-- Metti la password del root (non la mettiamo qua che magari è poco sicuro) :)
-
 ### [Local generated Api Docs](http://localhost:5000/swagger-ui/index.html)
-# Setup
+# How to run the app on local machine
 
-> Per il frontend
-### (nella directory del frontend)
+> Frontend
+
+Install [node](https://nodejs.org/en/), then into `client` directory
 ```
 npm install
 npm start
 ```
-#### start port: [http://localhost:3000/](http://localhost:3000/) 
+#### start port: [http://localhost:3000/](http://localhost:3000/)
+
+<br />
+
+> Backend
+
+Install [Java](https://www.java.com)
+
+Install [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+
+On MySQL Workbench import `server/db.sql` and on `server\src\main\resources\application.properties` insert the root password
+
+To run (in `server`)
+```
+.\mvnw.cmd spring-boot:run
+```
 
 # Development ToDos
 
@@ -63,5 +74,3 @@ npm start
 - [x] Login Spotify (https://www.npmjs.com/package/react-spotify-auth) (senza lasciare le credenziali in chiaro TODO)
 - [ ] Cards (cardId, id dell'utente da swipare)
 - [ ] Codice pulito :)
-
-
