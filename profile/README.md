@@ -20,7 +20,11 @@ By logging in with your Spotify account, you will be able to find people with th
 
 # Development setup
 
-### [Local generated Api Docs](http://localhost:5000/swagger-ui/index.html)
+### Local generated Api Docs
+
+[http://localhost:5000/swagger-ui/index.html](http://localhost:5000/swagger-ui/index.html)
+
+
 # How to run the app on local machine
 
 > Frontend
@@ -38,39 +42,15 @@ npm start
 
 Install [Java](https://www.java.com)
 
+Install [Java Development Kit](https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html)
+
 Install [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
-On MySQL Workbench import `server/db.sql` and on `server\src\main\resources\application.properties` insert the root password
+On MySQL Workbench import `server/db.sql` and on `server/src/main/resources/application.properties` insert the root password
 
 To run (in `server`)
 ```
 .\mvnw.cmd spring-boot:run
 ```
 
-# Development ToDos
-
-- [x] Strutturato il database per i generi, sesso e gli eventuali match
-- [ ] Strutturato il database per i messaggi ecc.
-- [ ] Pagina Registrati/Loggati
-- [x] Trovare un modo per gestire il login con spotify
-- [x] Algoritmo di suggerimento utenti, quindi di matchup
-- [x] Backend (Non si sa bene in che linguaggio, ma probabilmente python)
-- [x] Fatta la funzione per risparmiare 3 caratteri nel commit del database (`.db`)
-- [x] Compilata la tabella `tutti_generi` --> `rap genovese` incluso
-- [x] Fare un API che funzioni
-- [ ] La sicurezza (anche se visto che è una demo sticazzi)
-- [NEVER] ~Arrendersi~ (W)
-- [x] Gestire match e rifiuto (quindi che si resettino dopo x tempo: TODO)
-- [ ] Le chat
-- [ ] Possibilità di personalizzare il profilo
-- [ ] Trovare altre cose da aggiungere alla lista
-- [x] Avere la certezza matematica che non finiremo mai in tempo
-- [x] Avere 5 mesi di tempo per fare il progetto ma usare solo gli ultimi 15 giorni
-
-## frontend
-- [x] Form registrazione
-- [ ] Homepage
-- [x] Form per login con sesso, a quale sesso è interessato(anche più di uno)
-- [x] Login Spotify (https://www.npmjs.com/package/react-spotify-auth) (senza lasciare le credenziali in chiaro TODO)
-- [ ] Cards (cardId, id dell'utente da swipare)
-- [ ] Codice pulito :)
+#### start port: [http://localhost:5000/](http://localhost:5000/) (if you want to change it: `server/src/main/resources/application.properties`)
