@@ -37,6 +37,18 @@ npm start
 
 start port: [http://localhost:3000/](http://localhost:3000/)
 
+If you want to change the door used: on `client/package.json` search for `"start": "react-scripts start"` and change it to
+
+**Linux** or **MacOs**:
+```
+"start": "PORT={port number} react-scripts start"
+```
+
+**Windows**:
+```
+"start": "set PORT={port number} && react-scripts start"
+```
+
 <br />
 
 > Backend
@@ -54,4 +66,6 @@ To run (in `server`)
 .\mvnw.cmd spring-boot:run
 ```
 
-start port: [http://localhost:5000/](http://localhost:5000/) (if you want to change it: `server/src/main/resources/application.properties`)
+start port: [http://localhost:5000/](http://localhost:5000/)
+
+If you want to change the door used: on `server/src/main/resources/application.properties` search for `server.port = 5000` and just change it
