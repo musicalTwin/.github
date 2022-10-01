@@ -37,7 +37,7 @@ npm start
 
 start port: [http://localhost:3000/](http://localhost:3000/)
 
-If you want to change the door used: on `client/package.json` search for `"start": "react-scripts start"` and change it to
+If you want to change the port used: on `client/package.json` search for `"start": "react-scripts start"` and change it to
 
 **Linux** or **MacOs**:
 ```
@@ -68,4 +68,4 @@ To run (in `server`)
 
 start port: [http://localhost:5000/](http://localhost:5000/)
 
-If you want to change the door used: on `server/src/main/resources/application.properties` search for `server.port = 5000` and just change it
+If you want to change the port used: on `server/src/main/resources/application.properties` search for `server.port = 5000` and just change it
