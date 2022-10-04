@@ -31,7 +31,7 @@ By logging in with your Spotify account, you will be able to find people with th
 
 Install [node](https://nodejs.org/en/), then into `client` directory
 ```
-npm install
+npm install --legacy-peer-deps
 npm start
 ```
 
